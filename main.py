@@ -31,6 +31,7 @@ def estrela():
 def limpar():
     canvas.delete("all")
 
+# Componentes do painel
 labelMenu = Label(frame, text="Menu", fg="black", height=2, width=10)
 labelMenu.pack( side = LEFT)
 
