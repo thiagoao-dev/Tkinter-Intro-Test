@@ -4,6 +4,9 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="GrafoBusca" />
+    <orderEntry type="module" module-name="Dijkstra" />
+    <orderEntry type="module" module-name="DijkstraAlgorithm" />
   </component>
 </module>
 
