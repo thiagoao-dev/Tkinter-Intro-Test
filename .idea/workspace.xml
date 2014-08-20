@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f7e928-4cd3-4dcf-9270-a9af34b99e14" name="Default" comment="Alteração da estrutura do algoritimo. &#10;Criação das classes: Node, Algorithm e JsonRead.&#10;Versão totalmente alterada.">
+    <list default="true" id="22f7e928-4cd3-4dcf-9270-a9af34b99e14" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DijkstraAlgorithm/Dijkstra.py" afterPath="$PROJECT_DIR$/../DijkstraAlgorithm/Dijkstra.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -16,7 +16,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Tkinter-intro$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1408420037024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GrafoBusca" />
-    <SUITE FILE_PATH="coverage/Tkinter-intro$Dijkstra.coverage" NAME="Dijkstra Coverage Results" MODIFIED="1408506951575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DijkstraAlgorithm" />
+    <SUITE FILE_PATH="coverage/Tkinter-intro$Dijkstra.coverage" NAME="Dijkstra Coverage Results" MODIFIED="1408507309999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DijkstraAlgorithm" />
     <SUITE FILE_PATH="coverage/Tkinter-intro$8QueensHill.coverage" NAME="8QueensHill Coverage Results" MODIFIED="1407364180234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/8QueensHill-master/8QueensHill-master" />
     <SUITE FILE_PATH="coverage/Tkinter-intro$main.coverage" NAME="main Coverage Results" MODIFIED="1407119782271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -35,11 +35,9 @@
       <file leaf-file-name="Dijkstra.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../DijkstraAlgorithm/Dijkstra.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.79396987" vertical-offset="1404" max-vertical-offset="1802">
-              <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-              <folding>
-                <element signature="e#2548#2866#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.298995" vertical-offset="1479" max-vertical-offset="1989">
+              <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -492,7 +490,11 @@
       <created>1408502959913</created>
       <updated>1408502959913</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Complementação do algoritimo">
+      <created>1408506994581</created>
+      <updated>1408506994581</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -545,7 +547,8 @@
     <MESSAGE value="Correção da classe&#10;" />
     <MESSAGE value="Alteração no arquivo json - removido vertices duplicadas e conflitantes.&#10;Remoção do metodo expandir da classe Dijkstra&#10;Criação de novo metodo &quot;expand&quot; na classe Dijkstra&#10;Correção na criação da primeira iteração" />
     <MESSAGE value="Alteração da estrutura do algoritimo. &#10;Criação das classes: Node, Algorithm e JsonRead.&#10;Versão totalmente alterada." />
-    <option name="LAST_COMMIT_MESSAGE" value="Alteração da estrutura do algoritimo. &#10;Criação das classes: Node, Algorithm e JsonRead.&#10;Versão totalmente alterada." />
+    <MESSAGE value="Complementação do algoritimo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complementação do algoritimo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -557,9 +560,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1581">
           <caret line="59" column="55" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
-          <folding>
-            <element signature="e#2548#2866#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -575,9 +576,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="1632">
           <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-          <folding>
-            <element signature="e#2548#2866#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -593,9 +592,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="775" max-vertical-offset="1394">
           <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
-          <folding>
-            <element signature="e#2548#2866#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -603,9 +600,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#2548#2866#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -620,9 +615,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="357">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#2548#2866#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -637,9 +630,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="e#2548#2866#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -717,11 +708,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../DijkstraAlgorithm/Dijkstra.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.79396987" vertical-offset="1404" max-vertical-offset="1802">
-          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-          <folding>
-            <element signature="e#2548#2866#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.298995" vertical-offset="1479" max-vertical-offset="1989">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
