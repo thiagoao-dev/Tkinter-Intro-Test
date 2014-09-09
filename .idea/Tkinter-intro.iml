@@ -7,6 +7,7 @@
     <orderEntry type="module" module-name="GrafoBusca" />
     <orderEntry type="module" module-name="Dijkstra" />
     <orderEntry type="module" module-name="DijkstraAlgorithm" />
+    <orderEntry type="module" module-name="HuffmanCode" />
   </component>
 </module>
 

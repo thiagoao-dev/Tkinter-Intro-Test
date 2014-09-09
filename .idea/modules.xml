@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../Dijkstra/.idea/Dijkstra.iml" filepath="$PROJECT_DIR$/../Dijkstra/.idea/Dijkstra.iml" />
       <module fileurl="file://$PROJECT_DIR$/../DijkstraAlgorithm/.idea/DijkstraAlgorithm.iml" filepath="$PROJECT_DIR$/../DijkstraAlgorithm/.idea/DijkstraAlgorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/../GrafoBusca/.idea/GrafoBusca.iml" filepath="$PROJECT_DIR$/../GrafoBusca/.idea/GrafoBusca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HuffmanCode/.idea/HuffmanCode.iml" filepath="$PROJECT_DIR$/../HuffmanCode/.idea/HuffmanCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Tkinter-intro.iml" filepath="$PROJECT_DIR$/.idea/Tkinter-intro.iml" />
     </modules>
   </component>
