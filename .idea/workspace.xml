@@ -17,7 +17,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Tkinter-intro$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1408420037024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GrafoBusca" />
     <SUITE FILE_PATH="coverage/Tkinter-intro$Main.coverage" NAME="Main Coverage Results" MODIFIED="1410226165347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DijkstraAlgorithm" />
-    <SUITE FILE_PATH="coverage/Tkinter-intro$Huffman.coverage" NAME="Huffman Coverage Results" MODIFIED="1410480886926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../HuffmanCode" />
+    <SUITE FILE_PATH="coverage/Tkinter-intro$Huffman.coverage" NAME="Huffman Coverage Results" MODIFIED="1410483354851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../HuffmanCode" />
     <SUITE FILE_PATH="coverage/Tkinter-intro$Code.coverage" NAME="Code Coverage Results" MODIFIED="1410228284539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../HuffmanCode" />
     <SUITE FILE_PATH="coverage/Tkinter-intro$Dijkstra.coverage" NAME="Dijkstra Coverage Results" MODIFIED="1408570983241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DijkstraAlgorithm" />
     <SUITE FILE_PATH="coverage/Tkinter-intro$8QueensHill.coverage" NAME="8QueensHill Coverage Results" MODIFIED="1407364180234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/8QueensHill-master/8QueensHill-master" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="Huffman.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../HuffmanCode/Huffman.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36090225" vertical-offset="298" max-vertical-offset="4981">
-              <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.31266847" vertical-offset="853" max-vertical-offset="6205">
+              <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -83,6 +83,7 @@
         <option value="$PROJECT_DIR$/../HuffmanCode/exit.txt" />
         <option value="$PROJECT_DIR$/../HuffmanCode/JsonExit.txt" />
         <option value="$PROJECT_DIR$/../HuffmanCode/Huffman.py" />
+        <option value="$PROJECT_DIR$/../HuffmanCode/JsonExit.json" />
       </list>
     </option>
   </component>
@@ -587,7 +588,11 @@
       <created>1410479737799</created>
       <updated>1410479737799</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Leitura do arquivo codificado em formado json">
+      <created>1410480995436</created>
+      <updated>1410480995436</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -672,7 +677,6 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
-    <MESSAGE value="Descrição de texto" />
     <MESSAGE value="Alteração da estrutura do código, modificado para uma classe.&#10;A alteração visa introduzir a abstração de objetos." />
     <MESSAGE value="Leitura do arquivo json" />
     <MESSAGE value="Conversão das funções em uma classe" />
@@ -697,7 +701,8 @@
     <MESSAGE value="Montagem da arvore de codificação e codificação do texto" />
     <MESSAGE value="Codificação do arquivo json" />
     <MESSAGE value="Monta e salva a saida no formado json em um arquivo txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Monta e salva a saida no formado json em um arquivo txt" />
+    <MESSAGE value="Leitura do arquivo codificado em formado json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leitura do arquivo codificado em formado json" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1009,14 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HuffmanCode/texto-descomp.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4722222" vertical-offset="0" max-vertical-offset="442">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../HuffmanCode/TxtExit.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
@@ -1025,18 +1022,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HuffmanCode/JsonExit.txt">
+    <entry file="file://$PROJECT_DIR$/../HuffmanCode/texto-descomp.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="386">
-          <caret line="0" column="96" selection-start-line="0" selection-start-column="96" selection-end-line="0" selection-end-column="96" />
+        <state vertical-scroll-proportion="0.4722222" vertical-offset="0" max-vertical-offset="442">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HuffmanCode/JsonExit.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../HuffmanCode/Huffman.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36090225" vertical-offset="298" max-vertical-offset="4981">
-          <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.31266847" vertical-offset="853" max-vertical-offset="6205">
+          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
           <folding />
         </state>
       </provider>
